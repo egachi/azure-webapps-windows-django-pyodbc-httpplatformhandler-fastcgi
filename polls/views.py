@@ -4,8 +4,8 @@ import pyodbc
 def index(request):
     server = 'tcp:edisga-server.database.windows.net' 
     database = 'edisga-sql' 
-    username = 'mredison' 
-    password = 'Pa$$w0rd123456' 
+    username = '*************' 
+    password = '**********' 
     cnxn = pyodbc.connect('DRIVER={SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
     cursor = cnxn.cursor()
     #Sample select query
